@@ -1,3 +1,3 @@
-#REAL-TIME GAME ANTI-ALIASING TECHNIQUES USING DEEP NEURAL NETWORKS
+# REAL-TIME GAME ANTI-ALIASING TECHNIQUES USING DEEP NEURAL NETWORKS
 
 The main objective of this project is to research, analyze, and develop deep neural network-based anti-aliasing techniques for application in video games. Multiple models have been developed using different architectures such as CNN, UNet, and Transformer. These models not only focus on correcting ghosting but also address other common visual issues, including jagged edges, image sharpness enhancement, and the removal of various artifacts generated during rendering. To train and evaluate the models, an extensive dataset of images was collected from scenes designed from scratch in the Unreal Engine graphics engine. These images are preprocessed to serve as input for the models, which output improved versions with applied anti-aliasing and noticeably superior visual quality.
