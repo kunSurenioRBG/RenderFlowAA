@@ -1,9 +1,12 @@
 # REAL-TIME GAME ANTI-ALIASING TECHNIQUES USING DEEP NEURAL NETWORKS
 
+<p align="center">
+<img src="TAA_antialiasing_example.gif" alt="Ejemplo de ghosting producido por TAA." width="300"/>
+</p>
+
 The main objective of this project is to research, analyze, and develop deep neural network-based anti-aliasing techniques for application in video games. Multiple models have been developed using different architectures such as CNN, UNet, and Transformer. These models not only focus on correcting ghosting but also address other common visual issues, including jagged edges, image sharpness enhancement, and the removal of various artifacts generated during rendering. To train and evaluate the models, an extensive dataset of images was collected from scenes designed from scratch in the Unreal Engine graphics engine. These images are preprocessed to serve as input for the models, which output improved versions with applied anti-aliasing and noticeably superior visual quality.
 
 <p align="center">
-  <img src="TAA_antialiasing_example.gif" alt="Ejemplo de ghosting producido por TAA." width="300"/>
   <img src="TAA_MSAA_comparativa.gif" alt="Comparativa entre TAA y MSAA." width="300"/>
   <img src="MSAA_antialiasing_example.gif" alt="Ejemplo de una imagen renderizada con MSAA." width="300"/>
 </p>
@@ -48,7 +51,8 @@ Se entrenaron y evaluaron las siguientes arquitecturas, especializadas en la res
 ## Resultados
 
 Los resultados se evaluaron mediante **PSNR (Peak Signal-to-Noise Ratio)**, una métrica estándar que mide la calidad de reconstrucción.
-<p align="center">
+<div align="center">
+
 | Escena            | VRT   | EDVR  | BasicVSR++ | DRUNet | NAFNet |
 |-------------------|-------|-------|------------|--------|--------|
 | Escena 1 - Banco  | 23.89 | 25.00 | 16.70      | 23.14  | 26.16  |
@@ -58,7 +62,9 @@ Los resultados se evaluaron mediante **PSNR (Peak Signal-to-Noise Ratio)**, una 
 | Escena 5 - Arco 1 | 25.65 | 26.06 | 19.73      | 24.41  | 25.52  |
 | Escena 6 - Arco 2 | 25.86 | 25.43 | 20.08      | 24.63  | 25.47  |
 | Escena 7 - Mirador| 26.68 | 26.49 | 21.65      | 27.02  | 26.54  |
-</p>
+
+</div>
+
 
 **Análisis de resultados:**
 - **NAFNet** destacó al lograr los mejores resultados en la mayoría de las escenas, especialmente en superficies transparentes.  
@@ -87,11 +93,7 @@ siguiente <a href="https://drive.google.com/drive/folders/1nkHAZJ5TlYn7uwUizH8rh
 conda create -n nombre_del_entorno python=3.9
 conda activate nombre_del_entorno
 ```
-
 ### **IMPORTANTE:** Recomendado crear un entorno separado para BasicSR, KAIR y NAFNet.
-```
-conda create -n nombre_del_entorno python=3.9
-conda activate nombre_del_entorno
-```
+
 ## Para instalar las dependencias necesarias para los distintos modelos, consultar el documento "TFG_Antialiasing" sección "Manual de Instalación".
 ## Para entrenar, validar e inferir sobre los modelos, consultar el documento "TFG_Antialiasing" sección "Manual de Usuario".
