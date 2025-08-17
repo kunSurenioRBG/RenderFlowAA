@@ -24,8 +24,6 @@ To train and evaluate the models, an extensive dataset of images was collected f
 
 ## Methodology
 
-For the development of the project, an **agile Scrum methodology** was followed, with sprints lasting one to two weeks.  
-
 The workflow was structured into the following steps:
 
 1. **Dataset Creation**  
