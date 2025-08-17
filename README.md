@@ -10,10 +10,9 @@ The main objective of this project is to research, analyze, and develop deep neu
 |--------------------|
 | <img src="TAA_antialiasing_example.gif" width="600"/> |
 
-| MSAA |
+| MSAA (ground truth)|
 |------|
 | <img src="MSAA_antialiasing_example.gif" width="600"/> |
-
 
 ---
 
