@@ -71,10 +71,10 @@ Los resultados se evaluaron mediante **PSNR (Peak Signal-to-Noise Ratio)**, una 
 ## 🛠️ Manual de Instalación
 
 ### Requisitos del sistema
-- **SO:** Linux (Ubuntu 20.04) o Windows (con WSL2).  
-- **GPU:** NVIDIA con soporte CUDA (**mínimo 12 GB de VRAM** recomendado para entrenamiento).  
-- **Docker**.  
-- **Python 3.9+**.  
+- **SO:** Linux (también en Windows con soporte en WSL o Docker).
+- **Python:** Recomendado Python entre 3.7 - 3.10 (Se recomienda el uso de entornos virtuales con Anaconda o Miniconda).
+- **PyTorch:** 1.10 con soporte CUDA.
+- **GPU:** NVIDIA con soporte CUDA (**mínimo 12 GB de VRAM** recomendado para entrenamiento).
 
 ### 1. Clonar el repositorio
 ```bash
