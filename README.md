@@ -11,6 +11,11 @@ The main objective of this project is to research, analyze, and develop deep neu
   <img src="MSAA_antialiasing_example.gif" alt="Ejemplo de una imagen renderizada con MSAA." width="300"/>
 </p>
 
+<p align="center">
+  <b>Izquierda:</b> TAA (con ghosting) • <b>Derecha:</b> MSAA
+</p>
+
+
 ---
 
 ## Metodología
