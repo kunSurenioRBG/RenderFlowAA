@@ -48,7 +48,7 @@ Se entrenaron y evaluaron las siguientes arquitecturas, especializadas en la res
 ## Resultados
 
 Los resultados se evaluaron mediante **PSNR (Peak Signal-to-Noise Ratio)**, una métrica estándar que mide la calidad de reconstrucción.
-
+<p align="center">
 | Escena            | VRT   | EDVR  | BasicVSR++ | DRUNet | NAFNet |
 |-------------------|-------|-------|------------|--------|--------|
 | Escena 1 - Banco  | 23.89 | 25.00 | 16.70      | 23.14  | 26.16  |
@@ -58,6 +58,7 @@ Los resultados se evaluaron mediante **PSNR (Peak Signal-to-Noise Ratio)**, una 
 | Escena 5 - Arco 1 | 25.65 | 26.06 | 19.73      | 24.41  | 25.52  |
 | Escena 6 - Arco 2 | 25.86 | 25.43 | 20.08      | 24.63  | 25.47  |
 | Escena 7 - Mirador| 26.68 | 26.49 | 21.65      | 27.02  | 26.54  |
+</p>
 
 **Análisis de resultados:**
 - **NAFNet** destacó al lograr los mejores resultados en la mayoría de las escenas, especialmente en superficies transparentes.  
@@ -76,19 +77,21 @@ Los resultados se evaluaron mediante **PSNR (Peak Signal-to-Noise Ratio)**, una 
 - **PyTorch:** 1.10 con soporte CUDA.
 - **GPU:** NVIDIA con soporte CUDA (**mínimo 12 GB de VRAM** recomendado para entrenamiento).
 
-## Intalación 
+## Instalación 
 
 Todo el código fuente necesario para ejecutar y reproducir este proyecto se encuentra organizado en la carpeta TFG_AntiAliasing. Dicha carpeta puede descargarse desde el
 siguiente <a href="https://drive.google.com/drive/folders/1nkHAZJ5TlYn7uwUizH8rhuJjfjGtI4VX">enlace</a>.
 
-### 1. Clonar el repositorio
+### Usando Miniconda o Anaconda:
 ```bash
 conda create -n nombre_del_entorno python=3.9
 conda activate nombre_del_entorno
 ```
 
-**IMPORTANTE:** Recomendado crear un entorno separado para BasicSR, KAIR y NAFNet.
+### **IMPORTANTE:** Recomendado crear un entorno separado para BasicSR, KAIR y NAFNet.
 ```
 conda create -n nombre_del_entorno python=3.9
 conda activate nombre_del_entorno
 ```
+## Para instalar las dependencias necesarias para los distintos modelos, consultar el documento "TFG_Antialiasing" sección "Manual de Instalación".
+## Para entrenar, validar e inferir sobre los modelos, consultar el documento "TFG_Antialiasing" sección "Manual de Usuario".
