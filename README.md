@@ -2,14 +2,6 @@
 
 The main objective of this project is to research, analyze, and develop deep neural network-based anti-aliasing techniques for application in video games. Multiple models have been developed using different architectures such as CNN, UNet, and Transformer. These models not only focus on correcting ghosting but also address other common visual issues, including jagged edges, image sharpness enhancement, and the removal of various artifacts generated during rendering. To train and evaluate the models, an extensive dataset of images was collected from scenes designed from scratch in the Unreal Engine graphics engine. These images are preprocessed to serve as input for the models, which output improved versions with applied anti-aliasing and noticeably superior visual quality.
 
-# 🎮 TÉCNICAS DE ANTI-ALIASING CON REDES NEURONALES PROFUNDAS
-
-Este repositorio alberga el código y los resultados del **Trabajo de Fin de Grado (TFG)** titulado:  
-**"TÉCNICAS DE ANTI-ALIASING PARA JUEGOS EN TIEMPO REAL MEDIANTE REDES NEURONALES PROFUNDAS"**.
-
-El proyecto explora la aplicación del **aprendizaje profundo** para mitigar los artefactos visuales comunes en videojuegos, como los *dientes de sierra* (**aliasing**) y el molesto efecto de **ghosting**.  
-A través del uso de diversas arquitecturas de redes neuronales, se busca mejorar la calidad visual y la fluidez en entornos de renderizado en tiempo real, demostrando que estos enfoques pueden superar las limitaciones de las técnicas tradicionales de anti-aliasing como el **TAA** y el **MSAA**.
-
 <p align="center">
   <img src="TAA_antialiasing_example.gif" alt="Ejemplo de ghosting producido por TAA." width="300"/>
   <img src="TAA_MSAA_comparativa.gif" alt="Comparativa entre TAA y MSAA." width="300"/>
