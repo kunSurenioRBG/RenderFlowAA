@@ -14,7 +14,7 @@ Ejemplo de ghosting producido por TAA. • Comparativa entre TAA y MSAA. • Eje
 
 ---
 
-## 🔬 Metodología
+## Metodología
 
 Para el desarrollo del proyecto, se siguió una **metodología ágil Scrum** con sprints de una a dos semanas.
 
@@ -33,7 +33,7 @@ El flujo de trabajo se estructuró en los siguientes pasos:
 
 ---
 
-## 💻 Arquitecturas Utilizadas
+## Arquitecturas Utilizadas
 
 Se entrenaron y evaluaron las siguientes arquitecturas, especializadas en la restauración y superresolución de video e imagen:
 
@@ -45,7 +45,7 @@ Se entrenaron y evaluaron las siguientes arquitecturas, especializadas en la res
 
 ---
 
-## 📈 Resultados
+## Resultados
 
 Los resultados se evaluaron mediante **PSNR (Peak Signal-to-Noise Ratio)**, una métrica estándar que mide la calidad de reconstrucción.
 
@@ -68,7 +68,7 @@ Los resultados se evaluaron mediante **PSNR (Peak Signal-to-Noise Ratio)**, una 
 
 ---
 
-## 🛠️ Manual de Instalación
+## Manual de Instalación
 
 ### Requisitos del sistema
 - **SO:** Linux (también en Windows con soporte en WSL o Docker).
@@ -76,7 +76,19 @@ Los resultados se evaluaron mediante **PSNR (Peak Signal-to-Noise Ratio)**, una 
 - **PyTorch:** 1.10 con soporte CUDA.
 - **GPU:** NVIDIA con soporte CUDA (**mínimo 12 GB de VRAM** recomendado para entrenamiento).
 
+## Intalación 
+
+Todo el código fuente necesario para ejecutar y reproducir este proyecto se encuentra organizado en la carpeta TFG_AntiAliasing. Dicha carpeta puede descargarse desde el
+siguiente <a href="https://drive.google.com/drive/folders/1nkHAZJ5TlYn7uwUizH8rhuJjfjGtI4VX">enlace</a>.
+
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/tu-usuario/nombre-del-repo.git
-cd nombre-del-repo
+conda create -n nombre_del_entorno python=3.9
+conda activate nombre_del_entorno
+```
+
+**IMPORTANTE:** Recomendado crear un entorno separado para BasicSR, KAIR y NAFNet.
+```
+conda create -n nombre_del_entorno python=3.9
+conda activate nombre_del_entorno
+```
