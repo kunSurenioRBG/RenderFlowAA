@@ -4,7 +4,7 @@
   <img src="TAA_MSAA_comparativa.gif" alt="Comparison between TAA and MSAA." width="800"/>
 </p>
 
-All source code required to run and reproduce this project is organized in the TFG_AntiAliasing folder. This folder can be downloaded from the following link.
+All source code required to run and reproduce this project is organized in the TFG_AntiAliasing folder. This folder can be downloaded from the following <a href="https://drive.google.com/drive/folders/1nkHAZJ5TlYn7uwUizH8rhuJjfjGtI4VX">link</a>.
 
 The main objective of this project is to research, analyze, and develop deep neural network-based anti-aliasing techniques for application in video games. Multiple models were developed using different architectures such as CNN, UNet, and Transformer. These models not only aim to correct ghosting but also address other common visual issues, including jagged edges, image sharpness enhancement, and the removal of various rendering artifacts.  
 
