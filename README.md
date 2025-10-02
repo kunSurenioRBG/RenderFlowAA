@@ -6,6 +6,8 @@
 
 All source code required to run and reproduce this project is organized in the TFG_AntiAliasing folder. This folder can be downloaded from the following <a href="https://drive.google.com/drive/folders/1nkHAZJ5TlYn7uwUizH8rhuJjfjGtI4VX">link</a>.
 
+--------------------------------------------------------------------------------
+
 The main objective of this project is to research, analyze, and develop deep neural network-based anti-aliasing techniques for application in video games. Multiple models were developed using different architectures such as CNN, UNet, and Transformer. These models not only aim to correct ghosting but also address other common visual issues, including jagged edges, image sharpness enhancement, and the removal of various rendering artifacts.  
 
 To train and evaluate the models, an extensive dataset of images was collected from custom-designed scenes in the Unreal Engine graphics engine. These images were preprocessed to serve as input for the models, which output enhanced versions with applied anti-aliasing and noticeably superior visual quality.
